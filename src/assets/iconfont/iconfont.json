@@ -1,0 +1,149 @@
+{
+  "id": "4506235",
+  "name": "SuperAdmin",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8361919",
+      "name": "缩小1",
+      "font_class": "suoxiao",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "14776168",
+      "name": "筛选2",
+      "font_class": "shaixuan2",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "31425971",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11882918",
+      "name": "bg-refresh",
+      "font_class": "bg-refresh",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "15465137",
+      "name": "ht编辑器",
+      "font_class": "htbianjiqi",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "22272595",
+      "name": "内嵌页面",
+      "font_class": "neiqianyemian",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "24201137",
+      "name": "SuperFarm (SUPER)",
+      "font_class": "a-SuperFarmSUPER",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "3977831",
+      "name": "系统",
+      "font_class": "xitong",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "7626536",
+      "name": "组件信息",
+      "font_class": "zujianxinxi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "11641882",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "25831482",
+      "name": "echarts",
+      "font_class": "echarts",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "30442960",
+      "name": "名称=指令, 属性=下发指令",
+      "font_class": "a-mingchengzhilingshuxingxiafazhiling",
+      "unicode": "e76e",
+      "unicode_decimal": 59246
+    },
+    {
+      "icon_id": "35482629",
+      "name": "表单",
+      "font_class": "biaodan",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "10139825",
+      "name": "gauge-dashboard-1",
+      "font_class": "gauge-dashboard-",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "5698509",
+      "name": "全屏缩小",
+      "font_class": "quanpingsuoxiao",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "5698510",
+      "name": "全屏显示",
+      "font_class": "quanpingxianshi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "8361914",
+      "name": "全屏幕",
+      "font_class": "quanpingmu",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "8802665",
+      "name": "皮肤",
+      "font_class": "pifu",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "7596600",
+      "name": "24gf-table",
+      "font_class": "menutable",
+      "unicode": "eb12",
+      "unicode_decimal": 60178
+    },
+    {
+      "icon_id": "9393444",
+      "name": "完成收款工作台",
+      "font_class": "wanchengshoukuangongzuotai",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    }
+  ]
+}

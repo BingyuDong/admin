@@ -1,0 +1,215 @@
+/** element内置黑暗主题 */
+@use 'element-plus/theme-chalk/src/dark/css-vars.scss' as *;
+
+:root {
+  --dark-box-bg-color: rgba(16,16,16);
+  --dark-item-bg-color: rgba(29,30,31);
+}
+
+/** 自定义黑暗主题 */
+html.dark {
+  // * admin
+  --v-bg-color: var(--dark-item-bg-color);
+  --v-main-bg-color: var(--dark-box-bg-color);
+  --v-border-light: 1px solid #4c4c4d;
+
+  // scroll-bar
+  ::-webkit-scrollbar {
+    background-color: var(--el-scrollbar-bg-color) !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--el-border-color-darker) !important;
+  }
+
+  .layout-sidebar-container {
+    background-color: var(--v-bg-color) !important;
+  }
+
+  .app-main-container {
+    background-color: var(--v-main-bg-color) !important;
+
+    .card {
+      background-color: var(--v-bg-color) !important;
+    }
+  }
+
+  .layout-footer-container {
+    color: var(--el-text-color-regular) !important;
+    background-color: var(--v-main-bg-color) !important;
+  }
+
+  .fold-unfold {
+    color: #fff !important;
+  }
+
+  .el-menu,
+  .el-sub-menu,
+  .el-menu-item,
+  .el-sub-menu__title {
+    background-color: var(--v-bg-color) !important;
+
+    &:not(.is-active) {
+      color: #bdbdc0 !important;
+    }
+
+    &.is-active {
+      color: #fff !important;
+      background-color: #000 !important;
+    }
+  }
+
+  .el-menu-item:not(.is-active):hover {
+    background-color: var(--v-main-bg-color) !important;
+  }
+
+  .nav-bar-container {
+    background-color: var(--v-bg-color) !important;
+  }
+
+  .table-header {
+    .el-icon {
+      color: #fff;
+    }
+  }
+
+  .tabs-bar-container {
+    background-color: var(--v-bg-color) !important;
+    border-top: 1px solid var(--el-border-color-light) !important;
+
+    .tabs-action {
+      .el-icon {
+        color: #fff !important;
+      }
+    }
+
+    .fold-unfold {
+      color: #fff;
+    }
+
+    .el-tabs__item.is-active {
+      color: var(--el-color-primary);
+      background-color: var(--v-main-bg-color) !important;
+
+      .el-icon {
+        color: var(--el-color-primary) !important;
+      }
+    }
+
+    .el-tabs__item:not(.is_active):hover {
+      background-color: var(--v-main-bg-color) !important;
+
+      .el-icon {
+        color: var(--el-color-primary) !important;
+      }
+    }
+  }
+
+  // 
+  pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+  }
+  code.hljs {
+    padding: 3px 5px
+  }
+  /*!
+    Theme: a11y-dark
+    Author: @ericwbailey
+    Maintainer: @ericwbailey
+  
+    Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css
+  */
+  .hljs {
+    background: #2b2b2b;
+    color: #f8f8f2
+  }
+  /* Comment */
+  .hljs-comment,
+  .hljs-quote {
+    color: #d4d0ab
+  }
+  /* Red */
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-tag,
+  .hljs-name,
+  .hljs-selector-id,
+  .hljs-selector-class,
+  .hljs-regexp,
+  .hljs-deletion {
+    color: #ffa07a
+  }
+  /* Orange */
+  .hljs-number,
+  .hljs-built_in,
+  .hljs-literal,
+  .hljs-type,
+  .hljs-params,
+  .hljs-meta,
+  .hljs-link {
+    color: #f5ab35
+  }
+  /* Yellow */
+  .hljs-attribute {
+    color: #ffd700
+  }
+  /* Green */
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-addition {
+    color: #abe338
+  }
+  /* Blue */
+  .hljs-title,
+  .hljs-section {
+    color: #00e0e0
+  }
+  /* Purple */
+  .hljs-keyword,
+  .hljs-selector-tag {
+    color: #dcc6e0
+  }
+  .hljs-emphasis {
+    font-style: italic
+  }
+  .hljs-strong {
+    font-weight: bold
+  }
+  @media screen and (-ms-high-contrast: active) {
+    .hljs-addition,
+    .hljs-attribute,
+    .hljs-built_in,
+    .hljs-bullet,
+    .hljs-comment,
+    .hljs-link,
+    .hljs-literal,
+    .hljs-meta,
+    .hljs-number,
+    .hljs-params,
+    .hljs-string,
+    .hljs-symbol,
+    .hljs-type,
+    .hljs-quote {
+      color: highlight
+    }
+    .hljs-keyword,
+    .hljs-selector-tag {
+      font-weight: bold
+    }
+  }
+
+  .dark_box {
+    background-color: var(--v-main-bg-color) !important;
+    transition: all .5s;
+    border-color: rgba(65,66,67) !important;
+
+  }
+  .dark_item {
+    background-color: var(--v-bg-color) !important;
+    transition: all .5s;
+    border-color: rgba(65,66,67) !important;
+  }
+}
